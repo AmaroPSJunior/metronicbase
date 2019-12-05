@@ -29,11 +29,11 @@ function Login(props) {
     <>
       <div className="kt-login__head">
         <span className="kt-login__signup-label">
-          Don't have an account yet?
+          Não tem uma conta ainda?
         </span>
         &nbsp;&nbsp;
         <Link to="/auth/registration" className="kt-link kt-login__signup-link">
-          Sign Up!
+          Inscrever-se!
         </Link>
       </div>
 
@@ -154,7 +154,8 @@ function Login(props) {
                     to="/auth/forgot-password"
                     className="kt-link kt-login__link-forgot"
                   >
-                    <FormattedMessage id="AUTH.GENERAL.FORGOT_BUTTON" />
+                    {/*<FormattedMessage id="AUTH.GENERAL.FORGOT_BUTTON" />*/}
+                    Recuperar senha
                   </Link>
 
                   <button
@@ -178,7 +179,7 @@ function Login(props) {
           <div className="kt-login__divider">
             <div className="kt-divider">
               <span />
-              <span>OR</span>
+              <span>Ou</span>
               <span />
             </div>
           </div>

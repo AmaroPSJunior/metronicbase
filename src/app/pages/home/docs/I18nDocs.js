@@ -50,13 +50,9 @@ export default function I18nDocs() {
                     lang: "pt",
                     name: "Português",
                     flag: toAbsoluteUrl("/media/flags/255-brazil.svg")
-                  },
-                + {
-                +   lang: "tr",
-                +   name: "Turkish",
-                +   flag: toAbsoluteUrl("/media/flags/006-turkey.svg")
-                + },
-                {
+                  
+            
+                {]
               `}
             />
           </li>
